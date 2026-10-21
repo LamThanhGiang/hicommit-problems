@@ -7,13 +7,13 @@ int main() {
     scanf("%f", &t);
     
     if (t < 15) {
-        printf("lanh\n");
+        printf("LANH\n");
     } else if (t < 25) {
-        printf("mat\n");
+        printf("MAT\n");
     } else if (t < 32) {
-        printf("am\n");
+        printf("NONG\n");
     } else {
-        printf("nong\n");
+        printf("RAT NONG\n");
     }
     
     return 0;
