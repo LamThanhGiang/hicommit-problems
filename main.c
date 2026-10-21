@@ -3,7 +3,7 @@
 int main() {
     int a, b, c, max;
     printf("Nhap vao so a\n: ");
-    scanf("%d",&a)
+    scanf("%d",&a);
     printf("Nhap vao so b\n:");
     scanf("%d",&b);
     printf("Nhap vao so c\n:");
