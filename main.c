@@ -16,6 +16,8 @@ int main() {
         max = c;
     }
 
-    printf("So lon nhat la: \n", max);
+    printf("So lon nhat la:a \n", max);
+    printf("So lon nhat la:b \n", max);
+    printf("So lon nhat la:C \n", max);
     return 0;
 }
