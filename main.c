@@ -1,18 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    double a, b, c, max;
-    printf("Nhap vao 3 so (a, b, c): ");
-    scanf("%lf %lf %lf", &a, &b, &c);
-
-    max = a;
-    if (b > max) {
-        max = b;
+    float t;
+    
+    // Nhập giá trị nhiệt độ
+    printf("Nhap vao nhiet do t (do C): ");
+    scanf("%f", &t);
+    
+    // Phân loại nhiệt độ
+    if (t < 15) {
+        printf("lanh\n");
+    } else if (t < 25) {
+        printf("mat\n");
+    } else if (t < 32) {
+        printf("am\n");
+    } else {
+        printf("nong\n");
     }
-    if (c > max) {
-        max = c;
-    }
-
-    printf("So lon nhat la: %.2lf\n", max);
+    
     return 0;
 }
