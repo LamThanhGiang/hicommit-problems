@@ -1,11 +1,11 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+  int n;
+  switch(xep hang){
+      case'xuat sac'
+      prinf("%d",9<=n<=10);
+  }
+  
+  return 0;
 }
