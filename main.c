@@ -2,7 +2,7 @@
 
 int main() {
   int n;
-  switch(xep_hang){
+  switch(n){
       case'1':
       printf("xep_loai_xuat_sac");break;
     case '2':
@@ -11,7 +11,7 @@ int main() {
       printf("xep_loai_kha");break;
       case'4':
       printf("xep_loai_trung_binh");break;
-      default("khong_hop_le");
+      default("n+1");
   }
   
   return 0;
