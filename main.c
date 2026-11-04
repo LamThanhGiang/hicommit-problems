@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main() {
-  float dtb;
-  int drl;
+  float dtb,drl;
   scanf("%f",&dtb);
-  scanf("%d",&drl);
+  scanf("%f",&drl);
   if (dtb>=9.0 && drl>=90){
     printf("HOC_BONG_LOAI_XUAT_SAC");
-  }else if(8.0 <= dtb < 9.0 && 80 <= drl < 90 ){
+  }else if(8.0 <= dtb && 80 <= drl ){
     printf("HOC_BONG_LOAI_GIOI");
-  }else if(70 <= drl < 80 && 7.0 <= dtb < 8.0 ){
+  }else if(70 <= drl && 7.0 <= dtb ){
     printf("HOC_BONG_LOAI_KHA");
   }else {
-    printf("HOC_BONG_LOAI_TRUNG_BINH");   
+    printf("KHONG_DAT");   
   }
   return 0;
 }
