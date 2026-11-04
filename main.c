@@ -3,8 +3,9 @@
 int main() {
   int n;
   switch(xep hang){
-      case'xuat sac'
-      prinf("%d",9<=n<=10);
+      case'xuat sac':
+      printf("%d",1);break;
+    case 'goi'
   }
   
   return 0;
