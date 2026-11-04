@@ -3,14 +3,16 @@
 int main() {
   int n;
   switch(n){
-      case'1':
+    case 1:
       printf("xep_loai_xuat_sac");break;
-    case '2':
+    case 2:
       printf("xep_loai_gioi");break;
-      case'3':
+    case 3:
       printf("xep_loai_kha");break;
-      case'4':
+    case 4:
       printf("xep_loai_trung_binh");break;
+    case 6:
+      printf("khong_hop_le");break;
   }
   
   return 0;
