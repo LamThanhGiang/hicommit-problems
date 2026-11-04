@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() { 
-  scanf(%d,n);
   int n;
+  scanf("%d",&n);
   switch(n){
     case 1:
       printf("xep_loai_xuat_sac");break;
