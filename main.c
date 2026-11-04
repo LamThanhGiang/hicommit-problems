@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() { 
+  scanf(%d,n);
   int n;
   switch(n){
     case 1:
@@ -11,7 +12,7 @@ int main() {
       printf("xep_loai_kha");break;
     case 4:
       printf("xep_loai_trung_binh");break;
-    case 6:
+    default:
       printf("khong_hop_le");break;
   }
   
