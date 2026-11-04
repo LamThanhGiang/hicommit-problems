@@ -11,7 +11,6 @@ int main() {
       printf("xep_loai_kha");break;
       case'4':
       printf("xep_loai_trung_binh");break;
-      default("n+1");
   }
   
   return 0;
