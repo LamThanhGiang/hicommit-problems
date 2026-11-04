@@ -1,19 +1,18 @@
 #include <stdio.h>
-
 int main() { 
   int n;
   scanf("%d",&n);
   switch(n){
     case 1:
-      printf("xep_loai_xuat_sac");break;
+      printf("XEP_LOAI_XUAT_SAC"); break;
     case 2:
-      printf("xep_loai_gioi");break;
+      printf("XEP_LOAI_GIOI"); break;
     case 3:
-      printf("xep_loai_kha");break;
+      printf("XEP_LOAI_KHA"); break;
     case 4:
-      printf("xep_loai_trung_binh");break;
+      printf("XEP_LOAI_TRUNG_BINH"); break;
     default:
-      printf("khong_hop_le");break;
+      printf("KHONG_HOP_LE"); break;
   }
   
   return 0;
